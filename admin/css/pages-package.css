@@ -1,0 +1,288 @@
+/* Page List  */
+.icon.icon-pages{ background-image: url(../images/pages.svg); background-size: contain;   }
+.page-pages-list .blsl-list-tblsec table thead th { padding: 0px 15px; font-size: 14px; color: #fff; height: 48px; }
+.page-pages-list .blsl-list-tblsec table tbody td {height: 55px; padding-left:15px; font-size: 14px; color: #4d4d4d; }
+.page-pages-list .blsl-list-tblsec table tbody td ul,
+.page-pages-list .blsl-list-tblsec table tbody td li{ list-style: disc;  }
+.page-pages-list .icon.icon-edit { background-image: url(../images/edit_btn.svg); }
+/* ; */
+.page-pages-list .icon.icon-white-up { background-image: url(../images/white_up.svg); }
+
+.page-pages-list .icon.icon-white-down { background-image: url(../images/white_down.svg); }
+
+.page-pages-list #page-title,
+
+.page-pages-list #last-updated {cursor: pointer;}
+
+.page-pages-list #page-title .icon.icon-white-up,
+
+.page-pages-list #last-updated .icon.icon-white-up {background-position: center top; height: 16px;}
+
+.page-pages-list #page-title .icon.icon-white-down,
+
+.page-pages-list #last-updated .icon.icon-white-down {height: 26px;}
+
+.onoffswitch.onoffswitch-md { width: 70px; }
+.onoffswitch-md .onoffswitch-inner:before,  .onoffswitch-md .onoffswitch-inner:after { height: 30px; line-height: 30px; }
+.onoffswitch.onoffswitch-md .onoffswitch-switch { width: 22px; right: 41px; }
+/* Page List End  */
+
+.page-pages-create .blue-btn,
+.page-pages-edit .blue-btn{ vertical-align: middle; outline: none; cursor: pointer; min-width: 140px; }
+.page-pages-create .blue-btn:hover, .page-pages-create .blue-btn:focus,.page-pages-edit .blue-btn:hover,.page-pages-edit .blue-btn:focus{ outline: none;  }
+.btn-black-mdx { background-color: #4d4d4d; height: 40px;width: 140px;max-width: 100%; color: #fff; border: none; display: inline-block;text-align: center;line-height: 40px;vertical-align: middle;cursor: pointer; margin-right: 10px; }
+.btn-black-mdx:hover,.btn-black-mdx:focus{ color: #fff;  }
+
+.grey-btn{ background-color: #999; height: 40px;width: 140px;max-width: 100%; color: #fff; border: none; display: inline-block;text-align: center;line-height: 40px;vertical-align: middle;cursor: pointer; margin-right: 10px; }
+.save-btn { background-color: #50c8ff; height: 40px; width: 150px; max-width: 100%; color: #fff; border: none; display: inline-block; text-align: center; line-height: 40px;}
+
+.grey-btn:hover{color: #999; background: transparent; border: 1px solid #999; display: inline-block; cursor: pointer;}
+.pgcreate-frmarea{ padding: 20px;}
+.page-pages-create  .form-control, .page-pages-edit  .form-control{ border: 1px solid #999; border-radius: 0px; box-shadow: none;}
+.pgfncyopt .fancy-checkbox input[type="checkbox"]:checked + label , 
+.pgfncyopt .fancy-radio input[type="radio"]:checked + label { background: url(../images/r-check.svg) no-repeat left center; }
+.pgfncyopt .fancy-radio input[type="radio"] + label , 
+.pgfncyopt .fancy-checkbox input[type="checkbox"] + label { background: url(../images/r-uncheck.svg) no-repeat left center;}
+.pgfncyopt .fancy-radio label , .pgfncyopt .fancy-checkbox label { height: 26px; padding-left: 36px;  display: inline-block; border:none; padding-top: 3px; width: 100%;}
+.pgfncyopt .fancy-radio label span, 
+.pgfncyopt .fancy-checkbox label span { display: inline-block; width: auto; min-height: inherit; vertical-align: inherit;}
+.pgfncyopt {display: inline-block; width: 100%; margin-top: 10px;}
+.pgfncyopt .fancy-radio {border:none; display: inherit;margin-bottom: 0; width: 100%; vertical-align: middle;margin-right: unset; height: auto; border-radius: none;}
+.pgcreate-sbar{padding: 20px;}
+.pgcreate-sbar-title{font-weight: bold;}
+.pgfncyopt  input[type=checkbox], .pgfncyopt input[type=radio] { visibility: hidden; display: none;}
+.pgcrt-meta-seosec h4{ float: left; color: #1a0dab; font-weight: 600;  overflow-wrap: break-word;  margin-right: 10px;}
+.pgcrt-meta-seosec .seopg-link{color: #006621;}
+.pgcrt-meta-seosec p{ color: #545455; margin-right: 10px; overflow-wrap: break-word;}
+.pgcrt-meta-seobtn{ float: right;  }
+
+.pgcrt-link-cstmseo, .pgcrt-link-cstmseo:hover, .pgcrt-link-cstmseo:focus{color: #4fc8ff; font-weight: bold; cursor: pointer;}
+.pgcreat-btmbtn-sec .blue-btn{ float: right;}
+.page-pages-create .grey-btn,.page-pages-create .grey-btn:hover, .page-pages-edit .grey-btn,.page-pages-edit .grey-btn:hover{ min-width: 150px; height: 40px; padding: 10px 15px; font-size: 16px; font-weight: 400; text-align: center; color: #999; background: transparent; border: 1px solid #999; display: inline-block; cursor: pointer; }
+.pgcrtseo-aplybtnsec {  text-align: right;  }
+.pgcrtseo-aplyllink, .pgcrtseo-aplyllink:hover, .pgcrtseo-aplyllink:focus { color: #4fc8ff; font-weight: bold; cursor: pointer;}
+.pgcrtseo-canclelink{ margin-right: 20px;  }
+.pgcrtseo-canclelink, .pgcrtseo-canclelink:hover, .pgcrtseo-canclelink:focus { color: #999; font-weight: bold; cursor: pointer;}
+.pgcrt-meta-seoedit .form-control{ color: #4d4d4d; }
+.pgcrtseo-weburlsec { border: 1px solid #999; padding: 6px 12px;color: #c2c2c2;}
+.pgcrtseo-weburlsec input[type="text"]{ border:none; color: #4d4d4d;     width: 50%;  }
+.pgcrtseo-weburlsec input[type="text"]:hover,
+.pgcrtseo-weburlsec input[type="text"]:focus{ outline: none;  }
+.pgxfncyopt{ margin-top: 10px; }
+.xfancy-checkbox span { width: 26px;display: inline-block;height: 26px;vertical-align: middle;border: 1px solid #999;margin-right: 10px; position: relative;}
+.xfancy-checkbox input[type="checkbox"]{ display: none;  }
+.xfancy-checkbox input[type="checkbox"]:checked + label > span::after {content: '';position: absolute;height: 16px;width: 16px;top: 4px;left: 4px;background-color: #000;}
+
+.popup.popup-delete-confirm {width: 100%; max-width: 400px; text-align: center; padding: 10px 15px 25px !important;}
+
+.popup-delete-confirm .content-area{margin-top: 15px; margin-bottom: 25px;}
+
+.popup-delete-confirm  .btn-black-mdx,
+
+.popup-delete-confirm .btn-blue { vertical-align: middle; border-radius: 0; }
+
+#del {
+  margin-top: 5px;
+}
+
+.icon-edit {
+  margin-top: 5px;
+}
+
+#previewicon {
+  margin-top: 5px;
+}
+
+/* .popup.popup-delete-confirm {width: 100%; max-width: 380px; text-align: center; padding: 10px 15px 40px !important;}
+.popup-delete-confirm .content-area{margin-top: 15px; margin-bottom: 25px;}
+.popup-delete-confirm  .btn-black-mdx,
+.popup-delete-confirm .btn-blue { vertical-align: middle;  } */
+/* .btn-blue { background-color: #50c8ff; height: 40px; width: 150px; max-width: 100%; color: #fff; border: none; display: inline-block; text-align: center; line-height: 40px;} */
+
+
+.pgcrt-meta-seoedit label span {
+    font-size: 13px;
+}
+
+#metadesc {
+  resize: vertical; /* user can resize vertically, but width is fixed */
+  /* width: 500px; */
+  height: 200px;
+
+}
+th {
+  cursor: pointer;
+  padding-left: 15px;
+}
+a.svg {
+    position: relative;
+    display: inline-block; 
+   }
+   a.svg:after {
+     content: ""; 
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left:0;
+   }
+
+  #no-more-tables thead tbody tr th {
+    background-color: #3b3f46;
+    padding: 10px 8px;
+ 
+    color: #ffffff;
+   
+  } 
+
+    #no-more-tables tbody tr th:first-child {
+     padding-left: 20px
+    
+   }
+   #no-more-tables tbody tr th:last-child {
+    padding-right: 20px
+   
+  }
+  #no-more-tables tbody tr td:first-child {
+    padding-left: 20px
+   
+  }
+  #no-more-tables tbody tr td:last-child {
+   padding-right: 20px
+  
+ } 
+ a.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}
+
+.panel-box {
+  overflow: hidden;
+
+}
+
+
+
+  #campaigntable tbody > tr:last-child > td {
+    border-bottom: 0px;
+    margin: 0 auto;
+    position:absolute;
+    display: table; 
+  }
+  
+
+
+
+
+.dataTables_wrapper #pagination-insert .dataTables_paginate .paginate_button {
+  box-sizing: border-box;
+  display: inline-block;
+  min-width: 1.5em;
+  padding: 0.5em 1em;
+  margin-left: 2px;
+  text-align: center;
+  text-decoration: none !important;
+  cursor: pointer;
+  *cursor: hand;
+  color: #333 !important;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+.dataTables_wrapper  #pagination-insert  .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: #333 !important;
+  border: 1px solid #979797;
+  background-color: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #dcdcdc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, white 0%, #dcdcdc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, white 0%, #dcdcdc 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, white 0%, #dcdcdc 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, white 0%, #dcdcdc 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(to bottom, white 0%, #dcdcdc 100%);
+  /* W3C */
+  text-align: center;
+  
+}
+
+.dataTables_wrapper #pagination-insert .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+  cursor: default;
+  color: #666 !important;
+  border: 1px solid transparent;
+  background: transparent;
+  box-shadow: none;
+}
+.dataTables_wrapper  #pagination-insert .dataTables_paginate .paginate_button:hover {
+  color: white !important;
+  border: 1px solid #111;
+  background-color: #585858;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #585858), color-stop(100%, #111));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #585858 0%, #111 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #585858 0%, #111 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, #585858 0%, #111 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, #585858 0%, #111 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #585858 0%, #111 100%);
+  /* W3C */
+  text-align: center;
+}
+.dataTables_wrapper #pagination-insert .dataTables_paginate .paginate_button:active {
+  outline: none;
+  background-color: #2b2b2b;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2b2b), color-stop(100%, #0c0c0c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #2b2b2b 0%, #0c0c0c 100%);
+  /* W3C */
+  box-shadow: inset 0 0 3px #111;
+}
+.dataTables_wrapper .dataTables_paginate .ellipsis {
+  padding: 0 1em;
+}
+
+.center_page {
+  /* width:50%; */
+  margin: 0,auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.paging {
+  display: flex;
+   position: relative;
+   justify-content: center;
+   border: none;
+   margin-top: 10px;
+}
+
+
+
+#metadescspan #metatitlespan {
+  display: none; 
+}
+
+
+
+
+/* #seodesc {
+display:block;
+margin-right:10px;
+float:none;
+position:relative;
+} */
