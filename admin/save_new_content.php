@@ -77,7 +77,6 @@ $styles = [
     'Key' => '/pages/css/styles.css',
     'Value' => '/' .  'user' .'/' . $host2 . '/' . $host3 . '/'. 'css' . '/' . 'styles.css',
 
-    
 ];
 
 $url = $baseUrl . '/api/v2/rewrite-rules';
