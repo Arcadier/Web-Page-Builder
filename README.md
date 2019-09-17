@@ -19,14 +19,14 @@
 * Extract `admin` and `user` folders
 * Compress `admin` and `user` together
 * Upload the resulting `.zip` file to your [developer dashboard](https://dashboard.sandbox.arcadier.io/account/login)
-* Create the relevant Custom Fields and/or Custom tables as explained in the [wiki](https://github.com/Arcadier/Mailchimp-Exporter/wiki)
+* Create the relevant Custom Fields and/or Custom tables as explained in the [wiki](https://github.com/Arcadier/Web-Page-Builder/wiki)
 * Access the `Admin Portal` of your [sandbox marketplace](https://api.arcadier.com/sandbox-marketplace).
 * Go to `Plug-Ins`.
 * Install the Plug-In
 
 ### Links
 * Refer to the [wiki](https://github.com/Arcadier/Web-Page-Builder/wiki) or [Arcadier Website](https://support.arcadier.com/hc/en-us/articles/360025617333) for more information.
-* You can check out our [Documentation](api.arcadier.com) for instructions on how to install this on your marketplace, as well as how to build your own.
+* You can check out our [Documentation](https://api.arcadier.com) for instructions on how to install this on your marketplace, as well as how to build your own.
 * To see other plug-ins available on Arcadier, check out our [Plug-In marketplace](https://api.arcadier.com/plug-in-marketplace/).
 * To see other open-source Plug-Ins available on Github check out our [Plug-In Sample Codes](https://github.com/Arcadier/Plug-In-Sample-Codes)
 
