@@ -1,4 +1,4 @@
-<h1> Discount coupon Generator</h1>
+<h1>Web Page Builder</h1>
 <p align="center"><img src="https://bootstrap.arcadier.com/github/plug-in-icons/Page.png"></p>
 <p align="center">Need to add landing pages to further customise the look and feel of your marketplace? Have more information you’d like to share? Create beautiful web pages and house more content on your marketplace.</p>
 
