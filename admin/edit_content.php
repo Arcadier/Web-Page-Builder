@@ -49,6 +49,12 @@ textarea#editor1 {
     <div class="page-content">
       <div class="gutter-wrapper">
       <input type = "hidden" id="urlpath" value = <?php echo $userpage; ?>>
+
+      <div class="page-topnav" style="height: 5px;">
+          <div class="float">
+            <a class="btn-info-plug-in" href="https://support.arcadier.com/hc/en-us/articles/360025617333" target="_blank" >How to use this Plug-In?</a>
+          </div>
+      </div>
         <form >
         <div class="panel-box">
           <div class="page-content-top">

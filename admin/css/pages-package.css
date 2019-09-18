@@ -278,6 +278,58 @@ a.svg {
 }
 
 
+/* .btn-info-plug-in {
+  background-color: #494949;
+  color: #fff;
+  height: 30px;
+  padding: 1px 5px;
+  text-align: center;
+  min-width: 186px;
+  float: right;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.btn-info-plug-in a {
+  text-decoration: none;
+  color: #fff;
+  display: inline;
+}
+
+.page-topnav .btn-info-plug-in {
+  /* background-color: #F1585B; */
+  /* color: #fff;
+  display: block;
+  height: 30px;
+  padding: 3px 5px;
+  text-align: center;
+  width: 120px;
+} */
+
+/* .float{
+  float:right;
+} */ 
+
+
+.btn-info-plug-in {
+  color: #50c8ff;
+  display: block;
+  height: 30px;
+  text-align: right;
+  width: 190px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Open Sans';
+}
+
+.float {
+  float: right;
+}
+
+
+
+
+
 
 
 /* #seodesc {

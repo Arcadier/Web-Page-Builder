@@ -31,6 +31,11 @@
     <div class="page-content">
     <div class = "page-pages-list">
       <div class="gutter-wrapper">
+          <div class="page-topnav" style="height: 5px;">
+          <div class="float">
+            <a class="btn-info-plug-in" href="https://support.arcadier.com/hc/en-us/articles/360025617333" target="_blank" >How to use this Plug-In?</a>
+          </div>
+      </div>
         <div class="panel-box">
           <div class="page-content-top">
             <div> <i class="icon icon-pages icon-3x"></i> </div>
