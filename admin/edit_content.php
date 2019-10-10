@@ -227,18 +227,17 @@ textarea#editor1 {
    <script>
                 CKEDITOR.replace( 'editor1', {
                                 
-    toolbar: [
-    { name: 'document', groups: ['document', 'doctools' ], items: [ 'Preview', 'Source'] },
+toolbar: [
+    { name: 'document', groups: ['document', 'doctools' ] },
     { name: 'clipboard', groups: [ 'clipboard', 'undo' ], items: ['-', 'Undo', 'Redo' ] },
-    { name: 'editing', groups: [ 'find', 'selection', 'spellchecker' ], items: [ 'Find', 'Replace', '-', 'SelectAll', '-'] },
-    { name: 'forms', items: [ 'Checkbox', 'Radio'] },
+    { name: 'editing', groups: [ 'find', 'selection', 'spellchecker' ], items: ['-', 'SelectAll', '-'] },
     '/',
     { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-'] },
     { name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ], items: [ 'NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote',  '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-'] },
     { name: 'links', items: [ 'Link', 'Unlink'] },
-    { name: 'insert', items: [ 'Image', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar'] },
+    { name: 'insert', items: [ 'Image', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar','imageuploader'] },
     '/',
-    { name: 'styles', items: [ 'Styles', 'Format', 'Font', 'FontSize' ] },
+    { name: 'styles', items: ['Format', 'Font', 'FontSize' ] },
     { name: 'colors', items: [ 'TextColor', 'BGColor','youtube' ] },
 ]
 });     
